@@ -588,6 +588,7 @@ class TitleState extends MusicBeatState
 					addMoreText('One Shot'); // credTextShit.text += '\nFunkin';
 
 				case 17:
+				FlxTween.tween(logoBl, {y: logoBl.y - 600}, 1.45, {ease: FlxEase.expoOut});
 					skipIntro();
 			}
 		}
@@ -626,7 +627,7 @@ class TitleState extends MusicBeatState
 						skippedIntro = true;
 
 						FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-						FlxG.sound.music.fadeIn(4, 0, 0.7);
+						FlxG.sound.music.fadeIn(0.001, 0, 1);
 						return;
 				}
 
