@@ -21,11 +21,12 @@ class FlashingState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"Hey, watch out!\n
-			This Mod contains some flashing lights!\n
+			"Welcome To FNF VS Gregoriah!\n
+			This mod I was Helped with Khunnithi TH\n
+			so This Mod Contain with some Cool Stuff FR\n
 			Press " + enter + " to disable them now or go to Options Menu.\n
 			Press " + back + " to ignore this message.\n
-			You've been warned!",
+			Thanks For Playing This Mod :)",
 			32);
 		warnText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);

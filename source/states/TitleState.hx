@@ -598,7 +598,7 @@ class TitleState extends MusicBeatState
 	function skipIntro():Void
 	{
 		if (!skippedIntro)
-		FlxTween.tween(logoBl, {y: logoBl.y - 850}, 1.65, {ease: FlxEase.expoOut});
+		FlxTween.tween(logoBl, {y: logoBl.y - 850}, 2, {ease: FlxEase.expoOut});
 		{
 			#if TITLE_SCREEN_EASTER_EGG
 			if (playJingle) //Ignore deez
