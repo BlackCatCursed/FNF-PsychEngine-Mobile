@@ -588,7 +588,6 @@ class TitleState extends MusicBeatState
 					addMoreText('One Shot'); // credTextShit.text += '\nFunkin';
 
 				case 17:
-				FlxTween.tween(logoBl, {y: logoBl.y - 600}, 1.45, {ease: FlxEase.expoOut});
 					skipIntro();
 			}
 		}
@@ -599,6 +598,7 @@ class TitleState extends MusicBeatState
 	function skipIntro():Void
 	{
 		if (!skippedIntro)
+		FlxTween.tween(logoBl, {y: logoBl.y - 850}, 1.65, {ease: FlxEase.expoOut});
 		{
 			#if TITLE_SCREEN_EASTER_EGG
 			if (playJingle) //Ignore deez
