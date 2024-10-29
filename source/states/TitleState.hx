@@ -559,9 +559,9 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					addMoreText('MindF', 40);
-					addMoreText('and', 40);
 					addMoreText('Khunnithi', 40);
+					addMoreText('and', 40);
+					addMoreText('M1ndF', 40);
 				case 4:
 					addMoreText('Present', 40);
 				case 5:
