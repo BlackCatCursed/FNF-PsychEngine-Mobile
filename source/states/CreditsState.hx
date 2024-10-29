@@ -38,11 +38,10 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Mobile Porting Team'],
-			['mcagabe19',			'lily',             'Head Porter of Psych Engine and Author of linc_luajit-rewriten',                       'https://youtube.com/@mcagabe19',		'FFE7C0'],
-			['Karim Akra',			'karim',			'Second Porter of Psych Engine',						'https://youtube.com/@Karim0690',		'FFB4F0'],
-			['Moxie',				'moxie',			'Helper of Psych Engine Mobile',							'https://twitter.com/moxie_specalist',  'F592C4'],
-			[''],
+			["VS Gregoriah OneShot Team"],
+			["KHUNNITHI TH",		"khunnithi",		"Owner Of Mod/Composer",					"https://youtube.com/@khunnithi_songkhla?si=0aHrxZ03GmNxZRaW",	"51647F"],
+			["M1ndF",				"m1ndf",			"Helper of Coding/Spritesheet",						"https://youtube.com/@them1ndf?si=A5F-lTQYtX2LZWk7",			"006AFF"],
+			[''"],
 			["Psych Engine Team"],
 			["Shadow Mario",		"shadowmario",		"Main Programmer and Head of Psych Engine",					"https://ko-fi.com/shadowmario",	"444444"],
 			["Riveren",				"riveren",			"Main Artist/Animator of Psych Engine",						"https://x.com/riverennn",			"14967B"],
